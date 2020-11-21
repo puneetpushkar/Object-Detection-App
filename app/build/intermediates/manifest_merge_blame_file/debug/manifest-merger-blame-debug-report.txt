@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.mlkit.vision.demo"
+4    android:installLocation="auto"
+5    android:versionCode="11"
+6    android:versionName="1.11" >
+7
+8    <uses-sdk
+8-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+9        android:minSdkVersion="16"
+9-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+10        android:targetSdkVersion="29" />
+10-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:12:5-59
+12-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:12:19-57
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:14:5-66
+14-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:14:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:15:5-80
+15-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:15:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:16:5-79
+16-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:16:22-77
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:17:5-64
+17-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:17:22-62
+18
+19    <application
+19-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:19:5-93:19
+20        android:name="androidx.multidex.MultiDexApplication"
+20-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:20:9-61
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@drawable/logo_mlkit"
+23-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:21:9-44
+24        android:label="@string/app_name"
+24-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:22:9-41
+25        android:theme="@style/Theme.AppCompat" >
+25-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:23:9-47
+26        <meta-data
+26-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:25:9-27:68
+27            android:name="com.google.android.gms.version"
+27-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:26:13-58
+28            android:value="@integer/google_play_services_version" />
+28-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:27:13-66
+29        <meta-data
+29-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:29:9-31:51
+30            android:name="com.google.mlkit.vision.DEPENDENCIES"
+30-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:30:13-64
+31            android:value="barcode,face,ocr,ica" />
+31-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:31:13-49
+32
+33        <activity
+33-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:33:9-41:20
+34            android:name="com.google.mlkit.vision.demo.EntryChoiceActivity"
+34-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:34:13-48
+35            android:exported="true"
+35-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:35:13-36
+36            android:theme="@style/AppTheme" >
+36-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:36:13-44
+37            <intent-filter>
+37-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:37:13-40:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:38:17-68
+38-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:38:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:39:17-76
+40-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:39:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:43:9-46:20
+44            android:name="com.google.mlkit.vision.demo.java.ChooserActivity"
+44-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:44:13-49
+45            android:exported="true" >
+45-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:45:13-36
+46        </activity>
+47        <activity
+47-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:48:9-52:20
+48            android:name="com.google.mlkit.vision.demo.java.LivePreviewActivity"
+48-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:49:13-53
+49            android:exported="true"
+49-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:50:13-36
+50            android:theme="@style/AppTheme" >
+50-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:51:13-44
+51        </activity>
+52        <activity
+52-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:54:9-58:20
+53            android:name="com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity"
+53-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:55:13-60
+54            android:exported="true"
+54-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:56:13-36
+55            android:theme="@style/AppTheme" >
+55-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:57:13-44
+56        </activity>
+57        <activity
+57-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:60:9-64:20
+58            android:name="com.google.mlkit.vision.demo.java.StillImageActivity"
+58-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:61:13-52
+59            android:exported="true"
+59-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:62:13-36
+60            android:theme="@style/AppTheme" >
+60-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:63:13-44
+61        </activity>
+62        <activity
+62-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:66:9-69:20
+63            android:name="com.google.mlkit.vision.demo.kotlin.ChooserActivity"
+63-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:67:13-51
+64            android:exported="true" >
+64-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:68:13-36
+65        </activity>
+66        <activity
+66-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:71:9-75:20
+67            android:name="com.google.mlkit.vision.demo.kotlin.LivePreviewActivity"
+67-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:72:13-55
+68            android:exported="true"
+68-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:73:13-36
+69            android:theme="@style/AppTheme" >
+69-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:74:13-44
+70        </activity>
+71        <activity
+71-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:77:9-81:20
+72            android:name="com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity"
+72-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:78:13-62
+73            android:exported="true"
+73-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:79:13-36
+74            android:theme="@style/AppTheme" >
+74-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:80:13-44
+75        </activity>
+76        <activity
+76-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:83:9-87:20
+77            android:name="com.google.mlkit.vision.demo.kotlin.StillImageActivity"
+77-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:84:13-54
+78            android:exported="true"
+78-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:85:13-36
+79            android:theme="@style/AppTheme" >
+79-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:86:13-44
+80        </activity>
+81        <activity
+81-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:89:9-91:39
+82            android:name="com.google.mlkit.vision.demo.preference.SettingsActivity"
+82-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:90:13-56
+83            android:exported="false" />
+83-->C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:91:13-37
+84
+85        <service
+85-->[com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:8:9-14:19
+86            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+86-->[com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:9:13-91
+87            android:directBootAware="true"
+87-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
+88            android:exported="false" >
+88-->[com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:10:13-37
+89            <meta-data
+89-->[com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:11:13-13:85
+90                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+90-->[com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:12:17-136
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:13:17-82
+92            <meta-data
+92-->[com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:11:13-13:85
+93                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+93-->[com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:12:17-133
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:13:17-82
+95            <meta-data
+95-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:12:13-14:85
+96                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+96-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:13:17-114
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:14:17-82
+98            <meta-data
+98-->[com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:11:13-13:85
+99                android:name="com.google.firebase.components:com.google.mlkit.vision.label.automl.internal.AutoMLLabelRegistrar"
+99-->[com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:12:17-129
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:13:17-82
+101            <meta-data
+101-->[com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:11:13-13:85
+102                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
+102-->[com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:12:17-132
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:13:17-82
+104            <meta-data
+104-->[com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:11:13-13:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar"
+105-->[com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:12:17-129
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:13:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:12:13-14:85
+108                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+108-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:13:17-120
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:14:17-82
+110            <meta-data
+110-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:12:13-14:85
+111                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+111-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:13:17-114
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:14:17-82
+113            <meta-data
+113-->[com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:11:13-13:85
+114                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+114-->[com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:12:17-103
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:13:17-82
+116            <meta-data
+116-->[com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:11:13-13:85
+117                android:name="com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar"
+117-->[com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:12:17-114
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:13:17-82
+119            <meta-data
+119-->[com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
+120                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+120-->[com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
+122            <meta-data
+122-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+123-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
+125        </service>
+126
+127        <provider
+127-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
+128            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+128-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
+129            android:authorities="com.google.mlkit.vision.demo.mlkitinitprovider"
+129-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
+130            android:exported="false"
+130-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
+131            android:initOrder="99" />
+131-->[com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+137
+138        <provider
+138-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+139            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+139-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+140            android:authorities="com.google.mlkit.vision.demo.lifecycle-process"
+140-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+141            android:exported="false"
+141-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+142            android:multiprocess="true" />
+142-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+143    </application>
+144
+145</manifest>

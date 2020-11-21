@@ -1,0 +1,548 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a0bd0a267a132e422ab6f205dc33ee76\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3c20beb2724bfdace514d09dcd2c23e2\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8517ebcfb7cac17d26b51f389036b42a\jetified-barcode-scanning-16.0.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:face-detection:16.0.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ac5f703572449fc5f5975ffb95fc83f4\jetified-face-detection-16.0.2\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:pose-detection:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ae432ae7eb560d15689271025e0be2b5\jetified-pose-detection-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\25008a313658a898375682e124ab3634\jetified-pose-detection-accurate-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\283edee2ef6b083e657fdc56c7458d35\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\15822bc08e1b5d77b6b6f8dfebc636f7\jetified-camera-camera2-1.0.0-SNAPSHOT\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\fc536f69cd626fff19eeec39bccdcd0b\jetified-camera-view-1.0.0-SNAPSHOT\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6332194f0b8041fcae85b30e7d955f7b\jetified-camera-lifecycle-1.0.0-SNAPSHOT\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d97bc45f1e8e266310b53a4113781e7b\jetified-camera-core-1.0.0-SNAPSHOT\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8053239dec2a17c6866096f5057647cb\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6a5c2871120e3a6ae6d53f35d8afe636\jetified-play-services-vision-face-contour-internal-16.0.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2a495b76f73a10c9486b08bc6ebcf7f\jetified-play-services-vision-20.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f04406d5c342e0f94a0ec17a6476d717\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\46e106e93f280445274f8eea2554e372\jetified-object-detection-common-16.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d47270afd835b3dbd35d638088e0fcd8\jetified-image-labeling-default-common-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\14bc2e5fccab650917637463cab3090d\jetified-image-labeling-common-16.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1e3dfe6db9efe509d30312ac1b97ddd\jetified-mediapipe-internal-16.0.0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3bd385b58082b122d640c7030740bf93\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\393cb604a8cb626424266e2acf80072a\jetified-play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\68836ac8bdebc7358ac94a434a3c47dd\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d042240970c5106db752d96f24276ee7\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\813e1e2f2389234717945b9ce29d6fdd\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\609c0950fce9dbe590edb6aff6259407\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\56b3030ccff98c83b7e6bfc44eb19ba1\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0da32c1020c6874465b65ed271c8f17a\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ca1795d020228589772e1101eb1ebd52\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\da523afc89498e9b8e5b314e169a8fa0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5249e93bc5dfc214ef21e96ffe09e77b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d8f6d95ecea878223faad6a70dc78f40\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\820e17008c4790e2a1169fa6ccd2da84\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\10287d9b4738833a47c9d04e721bfe59\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\e1bd9b37c76836557e1f0667e6fe5335\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\00f278bfa790b1f1440d124348f2603e\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\bb8a18ed3a80bcc1563d0b7173f9b368\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5d5b220afebefb1529178971522d5d76\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\bb303e13eed200af5885f4cea1de6782\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b1e45e512565f3d96ae9f421fe03b310\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2b1bb92b20f29da1702161b3f95f8b17\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\1ec69c91971ca3ec2e7215d729a3ce1d\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\788b2bdcb9a4ded323c6661047001528\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\4260adf2fafa8981f1436904e3b32918\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0ecf1e18a0788bd0d90fa09204a6c3fe\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1afd1d43bc7a79aa3f2cc4cedfb47f4\jetified-tensorflow-lite-2.1.0\AndroidManifest.xml:2:1-10:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8b21dc464797c5d3c74012b9e92126a2\jetified-annotation-experimental-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+	package
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:5:5-43
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:2:1-95:12
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a0bd0a267a132e422ab6f205dc33ee76\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a0bd0a267a132e422ab6f205dc33ee76\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3c20beb2724bfdace514d09dcd2c23e2\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3c20beb2724bfdace514d09dcd2c23e2\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8517ebcfb7cac17d26b51f389036b42a\jetified-barcode-scanning-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8517ebcfb7cac17d26b51f389036b42a\jetified-barcode-scanning-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ac5f703572449fc5f5975ffb95fc83f4\jetified-face-detection-16.0.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ac5f703572449fc5f5975ffb95fc83f4\jetified-face-detection-16.0.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ae432ae7eb560d15689271025e0be2b5\jetified-pose-detection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ae432ae7eb560d15689271025e0be2b5\jetified-pose-detection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\25008a313658a898375682e124ab3634\jetified-pose-detection-accurate-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\25008a313658a898375682e124ab3634\jetified-pose-detection-accurate-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\283edee2ef6b083e657fdc56c7458d35\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\283edee2ef6b083e657fdc56c7458d35\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\15822bc08e1b5d77b6b6f8dfebc636f7\jetified-camera-camera2-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\15822bc08e1b5d77b6b6f8dfebc636f7\jetified-camera-camera2-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\fc536f69cd626fff19eeec39bccdcd0b\jetified-camera-view-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\fc536f69cd626fff19eeec39bccdcd0b\jetified-camera-view-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6332194f0b8041fcae85b30e7d955f7b\jetified-camera-lifecycle-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6332194f0b8041fcae85b30e7d955f7b\jetified-camera-lifecycle-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d97bc45f1e8e266310b53a4113781e7b\jetified-camera-core-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d97bc45f1e8e266310b53a4113781e7b\jetified-camera-core-1.0.0-SNAPSHOT\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8053239dec2a17c6866096f5057647cb\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8053239dec2a17c6866096f5057647cb\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6a5c2871120e3a6ae6d53f35d8afe636\jetified-play-services-vision-face-contour-internal-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6a5c2871120e3a6ae6d53f35d8afe636\jetified-play-services-vision-face-contour-internal-16.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2a495b76f73a10c9486b08bc6ebcf7f\jetified-play-services-vision-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2a495b76f73a10c9486b08bc6ebcf7f\jetified-play-services-vision-20.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f04406d5c342e0f94a0ec17a6476d717\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f04406d5c342e0f94a0ec17a6476d717\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\46e106e93f280445274f8eea2554e372\jetified-object-detection-common-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\46e106e93f280445274f8eea2554e372\jetified-object-detection-common-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d47270afd835b3dbd35d638088e0fcd8\jetified-image-labeling-default-common-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d47270afd835b3dbd35d638088e0fcd8\jetified-image-labeling-default-common-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\14bc2e5fccab650917637463cab3090d\jetified-image-labeling-common-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\14bc2e5fccab650917637463cab3090d\jetified-image-labeling-common-16.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1e3dfe6db9efe509d30312ac1b97ddd\jetified-mediapipe-internal-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1e3dfe6db9efe509d30312ac1b97ddd\jetified-mediapipe-internal-16.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3bd385b58082b122d640c7030740bf93\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3bd385b58082b122d640c7030740bf93\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\393cb604a8cb626424266e2acf80072a\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\393cb604a8cb626424266e2acf80072a\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\68836ac8bdebc7358ac94a434a3c47dd\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\68836ac8bdebc7358ac94a434a3c47dd\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d042240970c5106db752d96f24276ee7\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d042240970c5106db752d96f24276ee7\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\813e1e2f2389234717945b9ce29d6fdd\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\813e1e2f2389234717945b9ce29d6fdd\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\609c0950fce9dbe590edb6aff6259407\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\609c0950fce9dbe590edb6aff6259407\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\56b3030ccff98c83b7e6bfc44eb19ba1\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\56b3030ccff98c83b7e6bfc44eb19ba1\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0da32c1020c6874465b65ed271c8f17a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0da32c1020c6874465b65ed271c8f17a\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ca1795d020228589772e1101eb1ebd52\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ca1795d020228589772e1101eb1ebd52\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\da523afc89498e9b8e5b314e169a8fa0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\da523afc89498e9b8e5b314e169a8fa0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5249e93bc5dfc214ef21e96ffe09e77b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5249e93bc5dfc214ef21e96ffe09e77b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d8f6d95ecea878223faad6a70dc78f40\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d8f6d95ecea878223faad6a70dc78f40\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\820e17008c4790e2a1169fa6ccd2da84\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\820e17008c4790e2a1169fa6ccd2da84\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\10287d9b4738833a47c9d04e721bfe59\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\10287d9b4738833a47c9d04e721bfe59\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\e1bd9b37c76836557e1f0667e6fe5335\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\e1bd9b37c76836557e1f0667e6fe5335\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\00f278bfa790b1f1440d124348f2603e\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\00f278bfa790b1f1440d124348f2603e\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\bb8a18ed3a80bcc1563d0b7173f9b368\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\bb8a18ed3a80bcc1563d0b7173f9b368\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5d5b220afebefb1529178971522d5d76\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5d5b220afebefb1529178971522d5d76\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\bb303e13eed200af5885f4cea1de6782\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\bb303e13eed200af5885f4cea1de6782\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b1e45e512565f3d96ae9f421fe03b310\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b1e45e512565f3d96ae9f421fe03b310\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2b1bb92b20f29da1702161b3f95f8b17\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2b1bb92b20f29da1702161b3f95f8b17\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\1ec69c91971ca3ec2e7215d729a3ce1d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\1ec69c91971ca3ec2e7215d729a3ce1d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\788b2bdcb9a4ded323c6661047001528\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\788b2bdcb9a4ded323c6661047001528\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\4260adf2fafa8981f1436904e3b32918\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\4260adf2fafa8981f1436904e3b32918\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0ecf1e18a0788bd0d90fa09204a6c3fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0ecf1e18a0788bd0d90fa09204a6c3fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1afd1d43bc7a79aa3f2cc4cedfb47f4\jetified-tensorflow-lite-2.1.0\AndroidManifest.xml:5:5-6:41
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1afd1d43bc7a79aa3f2cc4cedfb47f4\jetified-tensorflow-lite-2.1.0\AndroidManifest.xml:5:5-6:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8b21dc464797c5d3c74012b9e92126a2\jetified-annotation-experimental-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0-rc01] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\8b21dc464797c5d3c74012b9e92126a2\jetified-annotation-experimental-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+	tools:overrideLibrary
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+	android:targetSdkVersion
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+		MERGED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:7:5-10:63
+		INJECTED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:12:5-59
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:12:19-57
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:17:5-64
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:17:22-62
+application
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:19:5-93:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3c20beb2724bfdace514d09dcd2c23e2\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3c20beb2724bfdace514d09dcd2c23e2\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ae432ae7eb560d15689271025e0be2b5\jetified-pose-detection-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\ae432ae7eb560d15689271025e0be2b5\jetified-pose-detection-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\25008a313658a898375682e124ab3634\jetified-pose-detection-accurate-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\25008a313658a898375682e124ab3634\jetified-pose-detection-accurate-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\283edee2ef6b083e657fdc56c7458d35\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\283edee2ef6b083e657fdc56c7458d35\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6a5c2871120e3a6ae6d53f35d8afe636\jetified-play-services-vision-face-contour-internal-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.3] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6a5c2871120e3a6ae6d53f35d8afe636\jetified-play-services-vision-face-contour-internal-16.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2a495b76f73a10c9486b08bc6ebcf7f\jetified-play-services-vision-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2a495b76f73a10c9486b08bc6ebcf7f\jetified-play-services-vision-20.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f04406d5c342e0f94a0ec17a6476d717\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f04406d5c342e0f94a0ec17a6476d717\jetified-play-services-vision-common-19.1.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3bd385b58082b122d640c7030740bf93\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3bd385b58082b122d640c7030740bf93\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\68836ac8bdebc7358ac94a434a3c47dd\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\68836ac8bdebc7358ac94a434a3c47dd\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d042240970c5106db752d96f24276ee7\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\d042240970c5106db752d96f24276ee7\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\788b2bdcb9a4ded323c6661047001528\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\788b2bdcb9a4ded323c6661047001528\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1afd1d43bc7a79aa3f2cc4cedfb47f4\jetified-tensorflow-lite-2.1.0\AndroidManifest.xml:8:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a1afd1d43bc7a79aa3f2cc4cedfb47f4\jetified-tensorflow-lite-2.1.0\AndroidManifest.xml:8:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\314ae777549fec968f9a0d95155da29b\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:21:9-44
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:23:9-47
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:20:9-61
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:25:9-27:68
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\515336bea9fb7c1c8be2abcc21693072\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:27:13-66
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:26:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:29:9-31:51
+	android:value
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:30:13-64
+activity#com.google.mlkit.vision.demo.EntryChoiceActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:34:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.google.mlkit.vision.demo.java.ChooserActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:43:9-46:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:44:13-49
+activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:48:9-52:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:49:13-53
+activity#com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:54:9-58:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:56:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:55:13-60
+activity#com.google.mlkit.vision.demo.java.StillImageActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:60:9-64:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:62:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:61:13-52
+activity#com.google.mlkit.vision.demo.kotlin.ChooserActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:66:9-69:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:68:13-36
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:67:13-51
+activity#com.google.mlkit.vision.demo.kotlin.LivePreviewActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:71:9-75:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:73:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:74:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:72:13-55
+activity#com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:77:9-81:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:79:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:78:13-62
+activity#com.google.mlkit.vision.demo.kotlin.StillImageActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:83:9-87:20
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:85:13-36
+	android:theme
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:86:13-44
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:84:13-54
+activity#com.google.mlkit.vision.demo.preference.SettingsActivity
+ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:89:9-91:39
+	android:exported
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:91:13-37
+	android:name
+		ADDED from C:\Users\punee\Downloads\capstone_final\Object_Dectition\app\src\main\AndroidManifest.xml:90:13-56
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:9:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\3fa800d57cdf7cb7e3503c90eb4c4132\jetified-object-detection-16.2.1\AndroidManifest.xml:12:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f5125f464eeb819a35b5e9e89e9f7492\jetified-object-detection-custom-16.2.1\AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\2474f2c4f594b641437a78dc573effb4\jetified-play-services-mlkit-text-recognition-16.1.1\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.automl.internal.AutoMLLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-automl:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\83bfad7348e8b9b20e519663a5d6f63b\jetified-image-labeling-automl-16.2.1\AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\57b0294e970ae7467ff84a9a40f1725d\jetified-image-labeling-17.0.0\AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-custom:16.2.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\5f8c3b60b4af7e6cec6d5a03b2a99261\jetified-image-labeling-custom-16.2.1\AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\b2e2a3cd2cdeb95d0a7a6da39320bb09\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\552e40d08347d2764c23b991d6804256\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:17.0.1] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\0e66d6f2c515240f9a727fe112a06b4f\jetified-vision-internal-vkp-17.0.1\AndroidManifest.xml:12:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\f6d9017cf63d6e6b5f3d957238cbacad\jetified-pose-detection-common-17.0.0\AndroidManifest.xml:12:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\54344ea65229a80649e7b833c2a402d2\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\6cb065274fd241438544be969ccb8af4\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\a81f47b03763ce1bbc86de2772c0ee60\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\punee\.gradle\native\caches\transforms-2\files-2.1\76a5cbf114320d31947303adfb26c9b9\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79

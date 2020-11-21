@@ -1,0 +1,10 @@
+#Sun Nov 22 00:51:07 IST 2020
+path.2=classes3.dex
+path.1=classes2.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=C\:\\Users\\punee\\Downloads\\capstone_final\\Object_Dectition\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes3.dex
+base.1=C\:\\Users\\punee\\Downloads\\capstone_final\\Object_Dectition\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+base.0=C\:\\Users\\punee\\Downloads\\capstone_final\\Object_Dectition\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
